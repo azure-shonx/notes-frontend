@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>notes-frontend</RootNamespace>
+    <UserSecretsId>aspnet-sign_in_webapp-81F5F93D-4013-4906-9F47-37FC3C684EAC</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.11.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="2.17.5" />
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="2.17.5" />
+    <PackageReference Include="Microsoft.Identity.Web.DownstreamApi" Version="2.17.5" />
+  </ItemGroup>
+
+</Project>
